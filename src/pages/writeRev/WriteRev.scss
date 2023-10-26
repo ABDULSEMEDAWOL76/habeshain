@@ -1,0 +1,64 @@
+.write-rev-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    .button {
+        border: none;
+        padding: 20px;
+        color: white;
+        font-weight: 500;
+        font-size: 18px;
+        background-color: #1dbf73;
+        cursor: pointer;
+        border-radius: 50px;
+      }
+  }
+
+ 
+ .raee{
+    display: flex;
+    flex-direction: row; 
+ }
+ .raee .star{
+    width: 40px;
+    height: 40px;
+ }
+ .buttonn {
+    position: relative;
+    background-color: #358538;
+    border: none;
+    font-size: 21px;
+    color: #FFFFFF;
+    padding: 20px;
+    width: 300px;
+    height: 60px;
+    margin: 20px 0 3%;
+    text-align: center;
+    transition-duration: 0.6s;
+    text-decoration: none;
+    overflow: hidden;
+    cursor: pointer;
+    border-radius: 19px;
+  }
+  
+  .buttonn:after {
+    content: "";
+    background: #f1f1f1;
+    display: block;
+    position: absolute;
+    padding-top: 300%;
+    padding-left: 350%;
+    margin-left: -20px !important;
+    margin-top: -120%;
+    opacity: 0;
+    transition: all 0.8s
+  }
+  
+  .buttonn:active:after {
+    padding: 0;
+    margin: 0;
+    opacity: 1;
+    transition: 0s
+  }
